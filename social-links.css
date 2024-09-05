@@ -1,0 +1,81 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    background-color: #e2d9f5;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.round-container{
+    width: 500px;
+    max-width: 700px;
+    background-color: #a189d3;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.foot{
+    padding-left: 30px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.buttons a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.bsize {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bsize:hover {
+    background-color: #58408C ;
+    color: aliceblue ;
+}
+
+.text1{
+    text-align: center;
+}
+
+h1, h3 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p{
+    font-family: "Playwrite FR Moderne", cursive;
+}
