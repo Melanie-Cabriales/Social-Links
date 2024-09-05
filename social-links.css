@@ -85,7 +85,7 @@ p{
 }
 
 @media (min-width:768px) {
-    .rounded-container {
+    .round-container {
         width:700px; /*fixed width for larger screens*/
         max-width: 90%;
     }
