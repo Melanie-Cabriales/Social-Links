@@ -38,6 +38,10 @@ body{
     padding-top: 20px;
 }
 
+img{
+    pointer-events: none;
+}
+
 .buttons a{
     display: flex;
     flex-direction: column;
