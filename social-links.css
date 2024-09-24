@@ -8,6 +8,15 @@
     color: hsl(228, 45%, 44%); 
 }
 
+#koiCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
 body{
     background-color: #e2d9f5;
     font-optical-sizing: auto;
@@ -20,6 +29,7 @@ body{
 }
 
 .round-container{
+    position: relative;
     width: 100%;
     max-width: 500px;
     background-color: #a189d3;
