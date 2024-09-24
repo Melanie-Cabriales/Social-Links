@@ -19,7 +19,7 @@ Challenge from FrontendMentor to create a social links page
 
 ### Screenshot
 
-![](/Recipe-Page.png)
+![](/images/social-links.png)
 
 ### Links
 - Live Site URL: [https://melanie-cabriales.github.io/Social-Links/]
@@ -32,49 +32,42 @@ Challenge from FrontendMentor to create a social links page
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Google Fonts
 
 ### What I learned
 
-I haven't started a coding project for a couple of months now so it was refreshing to reset my mind on how to approach the layout, design and components of this project to get the result I was looking for.
+I learned how to import google fonts to be used in VSCode projects.
 
-I was able to go in depth on the Flexbox documentation and understand how changing attributes can affect the output.
-
-I had also never done media queries before so it was interesting to see how fixed values can affect the display of my website on different screen sizes and how to combat it so the UI looked aesthetically pleasing to keep viewers interested and keep it approachable.
+I was figuring out how to animate an image in the background of it but I didnt stick with it because it wasnt exactly what I imagined
 
 In terms of code snippets I was proud of:
 
-```css
- h2 + ul li::marker, h2 + ol li::marker{
-    color: #8b6bc8;
-   }
+```html
+    <a href="https://www.frontendmentor.io/profile/Melanie-Cabriales"><button class="bsize">Frontend Mentor</button></a>
 ```
-It was a fun challenge trying to figure out how to color code everything the way it was prompted in the challenge, I didnt realize I could group components like this or specify the marker to only be color coded
+I intially thought I had to only use a button but then I realized to get the link to work I had to create the button inside the anchor tag with a href attribute.
 
 ```css
-    .image-size {
-        border-radius: 15px;
-        max-width: 100%; /* ensure the image fits within the container width*/ 
-        height: auto; /* maintains aspect ratio */
-        display: block; /* removes extra space below the image*/
-        margin: 0 auto; /*centers the image if needed*/
+    .bsize:hover {
+    background-color: #58408C ;
+    color: aliceblue ;
     }
 ```
-It was a struggle to adjust the image so it didnt take over the whole screen and it took some playing around with style elements to get it right.
+It was cool learning that I could make the buttons seem interactive and dynamic with only css by changing the button and text color when the pointer is hovering over.
 
 
 ### Continued development
 
 <!-- Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
-I think in the future I want to go more into the CSS documentation to add more elements and make the UI look more modern. 
-
-Generally I want to make it a habit to go to the documentation first instead of searching up questions I have because then I can familiarize myself with the documentation and can problem solve faster.
+I think in the future I want to go more into the adding dynamic background elements with JS and learn more about the gsap library and how I can utilize it in my coding projects. 
  
 
 ### Useful resources
 
-- [Resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox) - This helped me understand how flexbox worked 
-- [Resource 2](https://developer.mozilla.org/en-US/docs/Web/CSS) - This what I will be delving more into in the future.
+- [Resource 1](https://gsap.com/docs/v3/) - This shows the available gsap library features 
+- [Resource 2](https://gsap.com/resources/) - This has more tips and tricks for people getting into gsap
+- [Resource 3](https://fonts.google.com/) - Allows you to easily import fonts into your projects in VSCode
 
 ## Author
 
